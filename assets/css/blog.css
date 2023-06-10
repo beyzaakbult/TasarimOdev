@@ -1,0 +1,260 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    /* font-size/line-height kisa kullanim*/
+    font: 400 16px/28px 'Open Sans', sans-serif;
+    color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 38px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 16px;
+}
+
+h3, h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3 { margin-bottom: 16px; }
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.headerIcons {
+    display: flex;
+    gap: 30px;
+    align-items:flex-end;
+}
+
+.Title {
+    max-width: 830px;
+    padding-top: 80px;
+}
+
+.post01 img {
+    padding: 25px 0px;
+}
+
+.post01 p {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar .avatarBilgi {
+    display: flex;
+    gap: 20px;
+}
+
+.avatar .icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.avatar .social li {
+    cursor: pointer;
+}
+
+.post02, .post04 {
+    display: flex;
+    align-items: center;
+}
+
+.post02 p, .post04 p {
+    margin-bottom: 25px;
+}
+
+.post03 {
+    background-color: #ECF1F8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 125px;
+    margin: 80px 0px;
+}
+
+.post04Yazi {
+    padding-right: 25px;
+}
+
+.post05 {
+    margin-top: 50px;
+}
+
+.post05 h2 {
+    margin-bottom: 30px;
+}
+
+.post05 img {
+    margin-bottom: 50px;
+}
+
+.post06 {
+    margin-top: 40px;
+}
+
+.post06Resim {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.post06Resim .resim {
+    box-shadow:0px 8px 20px rgba(40, 41, 61, 0.08);
+    padding: 24px 15px;
+    margin-bottom: 80px;
+}
+
+.post06Resim .resim  img {
+    margin-bottom: 15px;
+}
+
+.post06Resim h3 {
+    margin-bottom: 0px;
+}
+
+.post06 h2 {
+    margin-top: 80px;
+}
+
+.post06Resim p {
+    color: #52647C;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.footerTop h4 {
+    margin-bottom: 10px;
+}
+
+.footerTop li {
+    margin-bottom: 10px;
+}
+
+
+.footerTop a {
+    text-decoration: none;
+    color:#212121;
+}
+
+.footerButton {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font: inherit;
+    margin-bottom:70px;
+}
+
+.footerButton form {
+    margin-top: 25px;
+    display: flex;
+
+}
+.footerButton input {
+    width: 250px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+.footerButton form span {
+    background-color:#0D6EFD ;
+    color: #ECF1F8;
+    padding: 15px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottom span {
+    margin-left: 200px;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 50px;
+}
